@@ -9,5 +9,5 @@ A dedicated Discord-based Record Management System (RMS) designed for Law Enforc
 - **Evidence Locker**: Append bodycam footage and media links directly to case narratives with automated officer attribution.
 - **Document Integration**: Support for "Case Jackets" to link Google Docs, PDFs, and external reports directly to a case file.
 - **Complete Case Lifecycle**: Functions to file, edit, lookup, import legacy data, and delete records.
-- **Security**: Hard-coded Admin ID protection for destructive commands and role-locked access for departmental commands.
+- **Security**: Hard-coded Admin ID protection for Case deletion and management commands and role-locked access for departmental commands.
 
