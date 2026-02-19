@@ -45,7 +45,7 @@ A specialized ESX resource utilizing `pma-voice` to facilitate undercover operat
 * **Covert Monitoring**: Allows detectives to listen to a target's audio in real-time without holding a radio or playing animations.
 * **The Handover Mechanic**: Detectives can "plant" the wire on a Confidential Informant (CI). The CI becomes the transmitter, and the Detective becomes the receiver.
 * **Visual Indicators**: An on-screen "REC" overlay confirms when the device is active for bodycam recording purposes.
-* **Job Restriction**: Usage is strictly limited to Law Enforcement (Police/Sheriff/DTF).
+* **Job Restriction**: Usage is strictly limited to CID/DTF).
 
 ### Usage Guide
 1.  **Self-Wire**: Use the `cid_wire` item while alone to wear the wire yourself. You will broadcast to the monitoring frequency.
