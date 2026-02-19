@@ -64,7 +64,7 @@ A specialized ESX resource utilizing `pma-voice` to facilitate undercover operat
 
 ---
 
-**Authorized for Use by:**
+
 Captain Casey Martin
 CID Overseer / Training Division
 6th Judicial District
