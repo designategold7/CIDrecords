@@ -1,4 +1,4 @@
-# 6th Judicial District - Specialized Investigative Toolkit
+# ASRP CID 6th Judicial District - Specialized Investigative Toolkit
 
 This repository contains the custom software suite developed for the Criminal Investigations Division (CID) and Drug Task Force (DTF). It consists of two integrated components:
 
