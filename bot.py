@@ -3,7 +3,6 @@ from discord import app_commands, ui
 from discord.ext import commands
 import aiosqlite
 import datetime
-
 async def init_db():
     async with aiosqlite.connect(DB_NAME) as db:
         await db.execute("CREATE TABLE IF NOT EXISTS cases (case_id TEXT PRIMARY KEY, detective TEXT, suspect TEXT, charges TEXT, narrative TEXT, status TEXT, timestamp TEXT)")
@@ -102,7 +101,7 @@ class ResourcesSelect(ui.Select):
         if selection == "Chain of Command":
             embed.title = "👮 CID / DTF Chain of Command"
             embed.description = "**Overseer:** Captain Casey Martin\n**Commander:** Austin Williams"
-            embed.add_field(name="Command Staff", value="• Detective Major (Task Force Cmdr)\n• Detective Captain (Admin/IA)", inline=False)
+            embed.add_field(name="Command Staff", value="• Detective Major (Task Force Cmdr)\n• **Detective Captain: Lilith Silver**", inline=False)
             embed.add_field(name="Supervisory Staff", value="• Detective Sergeant (Shift Lead)\n• Detective Corporal (Field Supervisor)", inline=False)
         elif selection == "Legal Scripts":
             embed.title = "⚖️ Mandatory Legal Scripts"
